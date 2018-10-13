@@ -1,13 +1,13 @@
 <p align="center">
   <a href="https://galilee.univ-paris13.fr/master/master-ingenierie-innovation-images-reseaux-m3ir/">
-     <img src="https://github.com/bilelz/tpaw/blob/master/galilee.png?raw=true" alt="Logo Master" width=100/>
+     <img src="../galilee.png?raw=true" alt="Logo Master" width=100/>
   </a>  
   <br/>
  Master² 3IR | <a href="https://3ir2019.slack.com/messages/aw">3ir2019.slack.com</a>
 
 
 <p align="center">
-<kbd><img src="img/index.png" width="300"></kbd><br/>
+<kbd><img src="index.png" width="500"></kbd><br/>
 <h3 align="center">TP1 : CV<br/>
 </p>
 
@@ -24,6 +24,7 @@ Référence technique [w3schools.com](https://www.w3schools.com/)
 - [2. Plate-forme de developpement :](#2-plate-forme-de-developpement-)
 - [3. HTML (index.html)](#3-html-indexhtml)
 - [4. CSS](#4-css)
+- [5. HTML - creation des pages formations.html et experiences.html](#5-html---creation-des-pages-formationshtml-et-experienceshtml)
 
 <!-- /TOC -->
 
@@ -41,11 +42,6 @@ Référence technique [w3schools.com](https://www.w3schools.com/)
 
 
 # 2. Plate-forme de developpement : 
-
-> Node.js nous permet d'utiliser le langage JavaScript sur le serveur... Il nous permet donc de faire du JavaScript en dehors du navigateur !
-
-Éditeur de texte (Visual studio code, notepad++,  emacs, …)
-Navigateur web (Google Chrome, Mozilla Firefox)
 
 * Éditeur de texte
     * Visual studio code (recommandé)
@@ -93,7 +89,8 @@ Navigateur web (Google Chrome, Mozilla Firefox)
         *    ```<body>``` avec un background-color gris 
         *    les tableaux ```<table>``` avec un background-color blanc
         * les liens ```<a>``` avec une couleur de texte orange au survol de la souris (:hover)
-        * illustration : exemple de CV avec la feuille de style cv.css	 
+         * Colorer d'un fond de couleur différents toutes les lignes impaires des tableaux
+            * Pseudo-class : ```:nth-child```
         * Au survol de la souris, changer la couleur de fond de chaque ligne du tableau
         * Au survol de la souris, agrandir les images présentés
            * 1er technique : en changeant la taille de l’image (width)
@@ -113,6 +110,16 @@ Navigateur web (Google Chrome, Mozilla Firefox)
             }
             ```
         * adapte la taille du tableau pour qu’il soit toujours visible sur toute sa largeur
+# 5. HTML - creation des pages formations.html et experiences.html
+* Création des pages "formations.html" et "experiences.html"
+    * un *lien* "Retour vers la page d'accueil" permettra de revenir à la page index.html
+    * Utiliser les balises de *titres*, de *paragraphes*, de *listes* pour détaillés votre parcours scolaire et professionel.
+* Sur la page index.html, entourer les titres "Formations" et "Experiences" par des liens vers ces nouvelles pages
+
+<img src="formations.png" alt="Logo Master" width=500/>
+<center>Page "formations.html"</center>
+
+
 
   
 <div align="center">
