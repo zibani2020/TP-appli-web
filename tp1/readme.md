@@ -12,7 +12,7 @@
 </p>
 
 </h3>
-Référence technique [w3schools.com](https://www.w3schools.com/) 
+Référence technique <a href="https://www.w3schools.com/">w3schools.com</>
 
 </p>
 
