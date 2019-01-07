@@ -98,12 +98,12 @@ npm install -g @angular/cli
 
 Vérification : entrer 
 ```cmd
-ng -v
+ng version
 ```
 
 La version d'Angular CLI devrait s'afficher:
 ```cmd
-ng -v
+ng version
 
     _                      _                 ____ _     ___
    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
