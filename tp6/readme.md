@@ -617,7 +617,7 @@ export class MeteoService {
 
     let m = new MeteoItem();
 
-    return fetch('https://demo.bilelz.fr/owmap/?q=' + name + '&units=metric&lang=fr&appid=VOTRE_CLE_OPENWEATHERMAP')
+    return fetch('https://api.openweathermap.org/data/2.5/weather/?q=' + name + '&units=metric&lang=fr&appid=VOTRE_CLE_OPENWEATHERMAP')
       .then(function (response) {
         return response.json();
       })
@@ -788,7 +788,7 @@ Ce répertoire est prêt à étre mis sur un serveur web (github pages par exemp
 # 13. Meteo sur 5 jours
 
 * Ajout une méthode à ```MeteoService``` qui appellera ce web service : 
-https://demo.bilelz.fr/owmap/forecast/?q=popo&lang=fr&appid=0ada432b59deb9716c357092c5f79be6
+https://api.openweathermap.org/data/2.5/forecast/?q=popo&lang=fr&appid=0ada432b59deb9716c357092c5f79be6
 
 * Appeler cette méthode dans le code de ```meteo-detail.component.ts```
 
