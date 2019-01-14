@@ -178,9 +178,8 @@ Dans le fichier styles.css ajouter une référence vers les CSS de bootstrap et 
 
 ```css
 @import "~bootstrap/dist/css/bootstrap.min.css";
-@import "~weather-icons/css/weather-icons.min.css";```
-
-
+@import "~weather-icons/css/weather-icons.min.css";
+```
 <div align="center">tp6\meteo-angular\src\styles.css</div>
 
 ## 2.3. Lancer l'application
