@@ -768,15 +768,16 @@ Prendre exemple sur la première date afficher dans ```meteo-detail.component.ht
 A ce stade, l'application est en état d'être utiliser.
 
 Pour compiler et packager votre application, il suffit d'executer la commande : 
+**Mettre le bon chemin de dossier du TP6 (ici "/tpaw/tp6/meteo-angular/dist/"), après le paramètre --basehref**
 
 ```cmd
-ng build
+ng build --base-href /tpaw/tp6/meteo-angular/dist/
 ```
 
-Cela va créer votre projet compilé dans le répertoire ```tp6\meteo-angular\dist```. 
+Cela va créer votre projet compilé dans le répertoire ```tp6/meteo-angular/dist/```. 
 Ce répertoire est prêt à étre mis sur un serveur web (github pages par exemple).
 
-💡 **C'est donc ce dossier qu'il faut mettre sur votre page Github**
+💡 **C'est donc ce dossier "dist" qu'il faut mettre sur votre page Github**
 
 ```ng build``` va optimiser le code et :
 * compiler le code TypeScript en Javascript
