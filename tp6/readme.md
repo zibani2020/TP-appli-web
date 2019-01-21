@@ -767,7 +767,7 @@ Prendre exemple sur la première date afficher dans ```meteo-detail.component.ht
 
 A ce stade, l'application est en état d'être utilisée.
 
-Pour compiler et packager votre application, il suffit d'executer la commande : 
+Pour compiler et packager votre application pour ensuite le déployer sur votre page github, il suffit d'executer la commande : 
 
 ```cmd
 ng build --base-href /tpaw/tp6/meteo-angular/dist/
