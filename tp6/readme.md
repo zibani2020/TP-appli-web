@@ -606,7 +606,7 @@ import { MeteoItem } from '../meteoItem';
 import { Observable } from 'rxjs/Observable';
 import { of } from 'rxjs/observable/of';
 
-@Injectable()
+@Injectable({ providedIn: 'root' })
 export class MeteoService {
 
   constructor() { }
