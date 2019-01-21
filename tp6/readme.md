@@ -765,14 +765,15 @@ Prendre exemple sur la première date afficher dans ```meteo-detail.component.ht
 
 # 12. Build : créer un package de votre application
 
-A ce stade, l'application est en état d'être utiliser.
+A ce stade, l'application est en état d'être utilisée.
 
 Pour compiler et packager votre application, il suffit d'executer la commande : 
-**Mettre le bon chemin de dossier du TP6 (ici "/tpaw/tp6/meteo-angular/dist/"), après le paramètre --basehref**
 
 ```cmd
 ng build --base-href /tpaw/tp6/meteo-angular/dist/
 ```
+
+** /!\ Mettre le bon chemin de dossier du TP6 (ici "/tpaw/tp6/meteo-angular/dist/"), après le paramètre --basehref **
 
 Cela va créer votre projet compilé dans le répertoire ```tp6/meteo-angular/dist/```. 
 Ce répertoire est prêt à étre mis sur un serveur web (github pages par exemple).
