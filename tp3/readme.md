@@ -9,7 +9,7 @@
 
 ### Prérequis (⚠️ important)
 
-* Lire **tout** l'énnoncé avant de commencer le TP.
+* Lire **tout** l'énoncé  avant de commencer le TP.
 
 ❓❓Si vous avez des questions ou des erreurs dans votre code : 
 * formater (indenter) bien votre code (raccourci Visual Studio Code : Ctrl + K puis Ctrl + F)
