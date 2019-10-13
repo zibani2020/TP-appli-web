@@ -39,7 +39,7 @@ Table des matières
 
 
 
-Reprenez le formulaire du [TP 3](../tp3/) ou télécharger ce code HTML [tp4_html.zip](tp4_html.zip):
+Reprenez le formulaire du [TP 3](../tp3/) ou télécharger ce code HTML [tp4_html.zip](tp4_html.zip?raw=true):
 * Nom
 * Prénom 
 * Date de naissance
