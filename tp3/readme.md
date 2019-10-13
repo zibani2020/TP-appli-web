@@ -48,7 +48,7 @@ Le formulaire permettra de saisir les informations suivantes :
 * Adresse postale
 * Adresse mail
 
-![Texte alternatif](https://raw.githubusercontent.com/bilelz/aw3ir/master/tp3/image1.png "texte pour le titre, facultatif")   
+![Texte alternatif](image1.png "texte pour le titre, facultatif")   
 
 
 ## 2. Plateforme de dév
