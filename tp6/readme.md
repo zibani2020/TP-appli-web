@@ -3,7 +3,7 @@
      <img src="https://github.com/bilelz/tpaw/blob/master/galilee.png?raw=true" alt="Logo Master" width=100/>
   </a>  
   <br/>
- Master² 3IR | <a href="https://3ir2019.slack.com/messages/aw">3ir2019.slack.com</a>
+ Master² 3IR | <a href="https://master3ir2020.slack.com/messages/aw">master3ir2020.slack.com</a>
 
 
 <p align="center">
@@ -770,15 +770,15 @@ A ce stade, l'application est en état d'être utilisée.
 Pour compiler et packager votre application pour ensuite le déployer sur votre page github, il suffit d'executer la commande : 
 
 ```cmd
-ng build --base-href /tpaw/tp6/meteo-angular/dist/
+ng build --base-href /aw3ir/tp6/meteo-angular/build/
 ```
 
-** /!\ Mettre le bon chemin de dossier du TP6 (ici "/tpaw/tp6/meteo-angular/dist/"), après le paramètre --basehref **
+** /!\ Mettre le bon chemin de dossier du TP6 (ici "/aw3ir/tp6/meteo-angular/build/"), après le paramètre --basehref **
 
-Cela va créer votre projet compilé dans le répertoire ```tp6/meteo-angular/dist/```. 
+Cela va créer votre projet compilé dans le répertoire ```tp6/meteo-angular/build/```. 
 Ce répertoire est prêt à étre mis sur un serveur web (github pages par exemple).
 
-💡 **C'est donc ce dossier "dist" qu'il faut mettre sur votre page Github**
+💡 **C'est donc le contenu de ce dossier "dist" qu'il faut mettre sur votre page Github**
 
 ```ng build``` va optimiser le code et :
 * compiler le code TypeScript en Javascript
