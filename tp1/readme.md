@@ -3,7 +3,7 @@
      <img src="../galilee.png?raw=true" alt="Logo Master" width=100/>
   </a>  
   <br/>
- Master² 3IR | <a href="https://3ir2019.slack.com/messages/aw">3ir2019.slack.com</a>
+ Master² 3IR | <a href="https://master3ir2020.slack.com/messages/aw">master3ir2020.slack.com</a>
 
 
 <p align="center">
