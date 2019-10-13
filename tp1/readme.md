@@ -44,12 +44,12 @@ Référence technique <a href="https://www.w3schools.com/">w3schools.com</>
 # 2. Plate-forme de developpement : 
 
 * Éditeur de texte
-    * Visual studio code (recommandé)
+    * Visual studio code (recommandé) https://code.visualstudio.com/
     * Atom (installé sur les ordinateus de l'université)
     * notepad++
 
 * Workspace
-    * Votre code source devrait etre écrit dans ce répertoire TP1
+    * Votre code source devrait etre écrit dans ce répertoire tp1
     * * index.html
 
 * Affichage de la page web
