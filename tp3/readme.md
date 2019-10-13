@@ -139,7 +139,7 @@ $( document ).ready(function() {
 | ajouter un "listener" à un élément | document.querySelector("#submit").addEventListener("click", function(event){<br/> &nbsp;&nbsp;event.preventDefault(); <br/>&nbsp;&nbsp;console.log( "click" ); <br/>});  |  $("#submit").on("click",function(event){ <br/>&nbsp;&nbsp;event.preventDefault(); <br/>&nbsp;&nbsp;console.log( "click" ); <br/>});  |
 
 ## 5. Affichage d'une popup (modal)
-![Texte alternatif](https://raw.githubusercontent.com/bilelz/aw3ir/master/tp3/image4.png "texte pour le titre, facultatif")   
+![Texte alternatif](image4.png "texte pour le titre, facultatif")   
 Modal quand un champ est vide
 
    1. Ajouter ce code HTML à la fin de votre page HTML (avant la balise \</body\>)
@@ -172,7 +172,7 @@ Modal quand un champ est vide
    $('#myModal').modal("show");
 ```
 
-![Texte alternatif](https://raw.githubusercontent.com/bilelz/aw3ir/master/tp3/image3.png "texte pour le titre, facultatif")   
+![Texte alternatif](image3.png "texte pour le titre, facultatif")   
 Modal quand tous les champs sont OK
 
    3. Pour l'image voir documentation vers Google Static Maps API https://developers.google.com/maps/documentation/static-maps/
@@ -181,7 +181,7 @@ Modal quand tous les champs sont OK
 
 ## 6. Ajout d’un calendrier jQueryUI
 
-![Texte alternatif](https://raw.githubusercontent.com/bilelz/aw3ir/master/tp3/image2.png "texte pour le titre, facultatif")   
+![Texte alternatif](image2.png "texte pour le titre, facultatif")   
    1. Mettre en place le  plug-in Datepicker de JqueryUI disponible ici : http://jqueryui.com/datepicker/
       * Options disponibles pour ce plugin http://api.jqueryui.com/datepicker/
   
