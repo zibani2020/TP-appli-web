@@ -81,7 +81,7 @@ tp5/
     └── main.js // fichier JS où sera le code de votre TP
 ```
 
-* index.html à utiliser (avec les imports de scripts et CSS nécessaires) : https://github.com/bilelz/tpaw/blob/master/tp5/index.html
+* index.html à utiliser (avec les imports de scripts et CSS nécessaires) : https://github.com/bilelz/aw3ir/blob/master/tp5/index.html
 
 
 
