@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://3ir2019.slack.com">
+  <a href="https://master3ir2020.slack.com/messages/aw">
      <img src="https://github.com/bilelz/tpaw/blob/master/galilee.png?raw=true" alt="Logo Master" width=100/>
   </a>  
   <br/>
-  Master 3IR² | <a href="https://3ir2019.slack.com/messages/aw">3ir2019.slack.com</a>
+  Master 3IR² | <a href="https://master3ir2020.slack.com/messages/aw">master3ir2020.slack.com</a>
 <h3 align="center">TP AW #4 : 
 Ajout de fonctionnalités HTML5 au formulaire
 </h3>
