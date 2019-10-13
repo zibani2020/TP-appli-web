@@ -3,6 +3,6 @@ TP 7 - angular
 
 Basé sur le code source du TP 6
 
-<h4>🎉 Si vous arrivez ici, c'est que vous avez enfin le niveau attendu 🚀</h4>
-        <img src="../galilee.png" alt="Logo Galilee"/>
+<strong>🎉 Si vous arrivez ici, c'est que vous avez enfin le niveau attendu 🚀</strong>
+<img src="../galilee.png" alt="Logo Galilee"/>
 
