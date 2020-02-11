@@ -770,7 +770,7 @@ A ce stade, l'application est en état d'être utilisée.
 Pour compiler et packager votre application pour ensuite le déployer sur votre page github, il suffit d'executer la commande : 
 
 ```cmd
-ng build --base-href /aw3ir/tp6/meteo-angular/build/ --output-path build
+ng build --base-href aw3ir/tp6/meteo-angular/build/ --output-path build
 ```
 
 ** /!\ Mettre le bon chemin de dossier du TP6 (ici "/aw3ir/tp6/meteo-angular/build/"), après le paramètre --basehref **
