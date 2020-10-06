@@ -3,6 +3,6 @@
      <img src="https://github.com/bilelz/tpaw/blob/master/galilee.png?raw=true" alt="Logo Master" width=100/>
   </a>  
   <br/>
- Master² 3IR | <a href="https://master3ir2020.slack.com/messages/aw">master3ir2020.slack.com</a>
+ Master² 3IR | <a href="https://master3ir2021.slack.com/messages/aw">master3ir2021.slack.com</a>
 
 # Template Github pour vos TP WEB
