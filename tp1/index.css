@@ -1,0 +1,34 @@
+ h1{
+  color:#fd6c9e;
+  
+  text-align: center;
+}
+
+ body{
+              background-color: #fde9e0;              
+              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+              font-size: 16px;
+              margin: 0 auto;
+              max-width: 1200px;              
+          }
+
+ 
+
+
+
+ 
+table{
+width :100%
+border: 1px solid;
+padding: 5px;
+box-shadow: 5px 10px rgba(43, 25, 110, 0.37) ;
+}
+
+
+
+td { 
+ border-width:2px;
+ border-style:solid; 
+ border-color:#fd9c9e;
+ width:30%;
+ }
