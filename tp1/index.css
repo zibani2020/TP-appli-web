@@ -1,28 +1,29 @@
  h1{
-  color:#fd6c9e;
-  
+  color:#e8afa0;
+  text-decoration: underline
   text-align: center;
 }
 
+
+h2{
+background-color:#e8afa0;
+font-weight: bold;
+}
  body{
               background-color: #fde9e0;              
-              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
               font-size: 16px;
               margin: 0 auto;
               max-width: 1200px;              
           }
 
  
-
-
-
- 
 table{
 width :100%
-border: 1px solid;
 padding: 5px;
-box-shadow: 5px 10px rgba(43, 25, 110, 0.37) ;
+border: 1px solid black;
 }
+
+
 
 
 
