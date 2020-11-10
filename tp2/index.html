@@ -1,33 +1,136 @@
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>TP2</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="apple-touch-icon" href="apple-touch-icon.png">
-        <!-- Place favicon.ico in the root directory -->
 
-        <style>
-          body{
-              background-color: #e9ebee;              
-              font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
-              font-size: 16px;
-              margin: 0 auto;
-              max-width: 800px;              
-          }
-        </style>
-        
-        <!-- Code à dé-commenter si besoin de fichier CSS ou JS -->
-        <!--<link rel="stylesheet" href="style.css">-->
-        <!--<script src="js/main.js"></script>-->
-    </head>
-    <body>        
-        <h1>tp2</h1>
-        <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
-        <img src="../galilee.png" alt="Logo Galilee"/>
-    </body>
-</html>
+<form id="formAW" onsubmit="validation()">
+
+
+<link rel="stylesheet" href="formul.css"/>
+ 
+<link rel="stylesheet" href="ttt.css">
+
+<script type="text/javascript" src="ttt.js"></script>
+
+
+<script>
+      alert ('welcome')
+</script>
+
+
+
+<h1>Saisie d'une fiche " personne "</h1>
+
+
+
+<fieldset>
+  <legend>informations essentielles</legend>
+
+
+
+
+<label for="nom">Nom*: </label>
+<input type="text" id="nom" name="nom" placeholder="ex: ZIBANI" maxlength=30 class="inputAW"/>
+<br/>
+<br/>
+
+
+
+
+<label for="prenom">Prénom*: </label>
+<input type="prenom" id="prenom" name="prenom" class="inputAW" maxlength="30"/>
+ <br/>
+ <br/>
+
+
+
+
+<label for="naissance">Date de naissance*: </label>
+<input type="naissance" id="naissance" name="naissance" placeholder= "ex: 03/09/1995" class="inputAW"/>
+ <br/>
+ <br/>
+
+
+
+
+
+<label for="lieu">Lieu de naissance*: </label>
+<input type="text" id="lieu" name="lieu" placeholder=" " class="inputAW"/>
+<br/>
+<br/>
+
+
+
+
+<label for="mail">e-mail*:</label>
+<input type="email" id="mail" name="mail" placeholder="ex: aa@mail.fr" class="inputAW"/>
+<br/>
+<br/>
+
+</fieldset>
+
+
+<fieldset>
+    <legend>informations supplémentaires </legend>
+
+      sexe:  
+
+      <label>Homme</label>
+          <input type="radio" name="homme"> 
+
+      <label>Femme</label>
+          <input type="radio" name="femme"> <br/><br/>
+
+
+       Etats civile: 
+
+      <label>Célébataire</label>
+            <input type="radio" name="celibataire" > 
+      <label>Marié(e)</label>
+            <input type="radio" name="croissant"> <br/><br/>
+
+
+
+        Loisirs :  
+          <label>Sport</label>
+             <input type="checkbox" name="Sport" > 
+
+          <label>Lecture</label>
+             <input type="checkbox" name="Lecture"> 
+
+          <label>Cinéma</label>
+             <input type="checkbox" name="Cinéma"> 
+
+          <label>Musique</label>
+             <input type="checkbox" name="musique"> <br/><br/>
+
+
+
+
+
+         choisissez votre pays:
+             <select name="pays" id="pays">
+
+
+                      <option value="japon">Algérie</option>
+                      <option value="france">France</option>
+                      <option value="irlande">Irlande</option>
+                      <option value="belgique">Belgique</option>
+                      <option value="chine">Chine</option>
+                      <option value="japon">USA</option>
+                      <option value="japon">Autres</option>
+               
+             </select>
+
+
+    </fieldset>
+
+
+  
+  <p>
+  <input type="button" value="Valider" onclick="validation()"/>
+  </p>
+  
+
+
+  </form>
+
+<div id="error"></div>
+<div id="resultat"></div>
